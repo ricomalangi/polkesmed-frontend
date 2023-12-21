@@ -1,0 +1,432 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;800;900&display=swap");
+body {
+    background-color: #e8eeec;
+    font-family: "Inter", sans-serif;
+    color: #343531;
+}
+
+.brand-1 {
+    font-weight: bold;
+    color: #1e5dbc;
+}
+
+.brand-2 {
+    font-weight: bold;
+    color: #343531;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ecfaf8 !important;
+}
+.navbar .nav-link {
+    color: #343531;
+    font-weight: 500;
+}
+.navbar .nav-link.active {
+    font-weight: bold;
+    color: #3976d1;
+}
+.navbar .nav-link:hover {
+    color: #3976d1;
+}
+
+.btn-login-register {
+    background-color: #1e5dbc;
+    color: white;
+}
+.btn-login-register:hover {
+    background-color: #3274d6;
+    color: white;
+}
+
+.section-welcome {
+    background: linear-gradient(84deg, #38697b 1.67%, #71b6c6 99.59%);
+    padding: 50px 0 0;
+}
+.section-welcome .welcome-content {
+    color: white;
+}
+.section-welcome .welcome-content h5 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 28px;
+    font-style: italic;
+    letter-spacing: 1.2px;
+}
+.section-welcome .welcome-content h2 {
+    font-weight: 500;
+    font-size: 48px;
+}
+.section-welcome .welcome-content .btn-buat-janji {
+    background-color: #1e5dbc;
+    padding: 20px 20px;
+    color: white;
+    margin-top: 30px;
+    box-shadow: 0px 0px 30px -6px rgb(30, 93, 188);
+}
+.section-welcome .welcome-content .btn-buat-janji:hover {
+    box-shadow: 0px 0px 44px 1px rgb(57, 118, 209);
+}
+.section-welcome .welcome-image {
+    text-align: center;
+}
+.section-welcome .welcome-image img {
+    width: 80%;
+    background-size: cover;
+}
+
+.section-featured {
+    position: relative;
+    top: -85px;
+}
+.section-featured .container {
+    height: 160px;
+    background-color: white;
+    border-radius: 20px;
+}
+.section-featured .featured-detail {
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.section-featured .featured-detail i {
+    font-size: 40px;
+    color: #1e5dbc;
+}
+.section-featured .featured-detail p {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #343531;
+}
+
+.section-intro {
+    margin-top: 80px;
+}
+.section-intro .intro-content h2 {
+    font-size: 42px;
+}
+.section-intro .intro-content p {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: justify;
+}
+.section-intro .intro-image {
+    text-align: center;
+}
+.section-intro .intro-image img {
+    width: 70%;
+    background-size: cover;
+}
+
+.section-statistik {
+    margin-top: 150px;
+    background-color: #1e5dbc;
+    padding: 45px 0 45px;
+    color: white;
+    text-align: center;
+}
+.section-statistik p {
+    display: flex;
+    align-items: center; /* Untuk membuat tulisan berada di tengah vertikal */
+    font-size: 28px;
+    font-weight: 500;
+}
+.section-statistik span {
+    font-size: 50px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.section-jadwal {
+    background-color: #fbfbfb;
+    padding-bottom: 120px;
+}
+.section-jadwal .jadwal-title {
+    margin-top: 100px;
+    margin-bottom: 52px;
+    text-align: center;
+}
+.section-jadwal .accordion-header {
+    color: white;
+}
+.section-jadwal .accordion-header button {
+    font-size: 24px;
+    padding: 32px;
+    font-weight: bold;
+    background-color: #1e5dbc;
+    color: white;
+}
+.section-jadwal .table {
+    font-size: 26px;
+}
+
+.section-dokter {
+    padding-bottom: 120px;
+}
+.section-dokter .dokter-title {
+    margin-top: 100px;
+    margin-bottom: 52px;
+    text-align: center;
+}
+.section-dokter .card {
+    border-radius: 10px;
+    box-shadow: 0px 0px 22.8px 0px rgba(0, 0, 0, 0.15);
+}
+.section-dokter .card .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 14px;
+}
+.section-dokter .card .card-text {
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: -2px;
+}
+.section-dokter .dokter-thumbnail {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.section-dokter .dokter-thumbnail:hover .dokter-image,
+.section-dokter .dokter-thumbnail:focus .dokter-image {
+    transform: scale(1.1);
+}
+.section-dokter .dokter-thumbnail .dokter-image {
+    height: 100%;
+    width: 100%;
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease;
+}
+.section-dokter .btn-dokter-selengkapnya {
+    background-color: #1e5dbc;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    margin-top: 50px;
+}
+
+.section-header {
+    background-color: #1e5dbc;
+    padding: 75px 0 75px;
+    color: white;
+}
+
+.section-page-dokter {
+    padding-bottom: 120px;
+}
+.section-page-dokter form {
+    margin-top: 50px;
+}
+.section-page-dokter form .form-select {
+    border-radius: 10px;
+    padding: 12px;
+}
+.section-page-dokter form .btn-filter-dokter {
+    background-color: #1e5dbc;
+    color: white;
+    padding: 12px;
+}
+.section-page-dokter form .btn-buat-janji {
+    background-color: #1e5dbc;
+    padding: 12px;
+    color: white;
+    box-shadow: 0px 0px 22px -4px rgb(30, 93, 188);
+}
+.section-page-dokter form .btn-buat-janji:hover {
+    box-shadow: 0px 0px 26px 1px rgb(57, 118, 209);
+}
+.section-page-dokter .list-dokter {
+    margin-top: 40px;
+}
+.section-page-dokter .list-dokter .card {
+    border-radius: 10px;
+    box-shadow: 0px 0px 22.8px 0px rgba(0, 0, 0, 0.15);
+}
+.section-page-dokter .list-dokter .card .card-kategori-dokter {
+    color: #1e5dbc;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.section-page-dokter .list-dokter .card .card-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+@media (min-width: 992px) {
+    .section-page-dokter .list-dokter .card .card-title {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+}
+.section-page-dokter .list-dokter .card .card-text {
+    color: #828282;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.section-page-dokter .list-dokter .dokter-thumbnail {
+    width: 100%;
+    height: 100px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.section-page-dokter .list-dokter .dokter-thumbnail:hover .dokter-image,
+.section-page-dokter .list-dokter .dokter-thumbnail:focus .dokter-image {
+    transform: scale(1.1);
+}
+.section-page-dokter .list-dokter .dokter-thumbnail .dokter-image {
+    height: 100%;
+    width: 100%;
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease;
+}
+
+.section-page-janji-dengan-dokter {
+    padding-bottom: 120px;
+}
+.section-page-janji-dengan-dokter form {
+    margin-top: 50px;
+}
+.section-page-janji-dengan-dokter form .card {
+    padding: 50px;
+}
+.section-page-janji-dengan-dokter form .card-title {
+    color: #1e5dbc;
+    font-weight: 500;
+    font-size: 26px;
+}
+.section-page-janji-dengan-dokter form .card-form {
+    margin-top: 40px;
+}
+@media (min-width: 992px) {
+    .section-page-janji-dengan-dokter form .col-page-janji {
+        padding-right: 60px;
+    }
+}
+.section-page-janji-dengan-dokter form .btn-submit-janji {
+    background-color: #1e5dbc;
+    color: white;
+}
+
+.section-layanan {
+    padding-bottom: 120px;
+}
+.section-layanan .card-layanan {
+    position: relative;
+    overflow: hidden;
+    height: 400px; /* Sesuaikan dengan tinggi yang diinginkan */
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+.section-layanan .card-layanan img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out; /* Transisi pada properti transform */
+}
+.section-layanan .card-layanan img:hover {
+    transform: scale(1.1);
+}
+.section-layanan .card-layanan .card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Warna latar belakang overlay */
+    color: #fff;
+}
+
+.section-auth {
+    padding-bottom: 120px;
+}
+.section-auth .card {
+    padding: 30px 50px;
+    width: 80%;
+    box-shadow: 0px 0px 30.505px 0px rgba(0, 0, 0, 0.15);
+}
+.section-auth form {
+    margin-top: 50px;
+}
+.section-auth form .form-label {
+    font-size: 20px;
+    color: #343531;
+    margin-bottom: 12px;
+}
+.section-auth form input {
+    border-radius: 10px;
+    border: 1px solid #1e5dbc;
+    height: 60px;
+}
+.section-auth form .btn-submit-janji {
+    background-color: #1e5dbc;
+    color: white;
+}
+.section-auth form a {
+    color: #828282;
+    font-weight: 700;
+}
+.section-auth form p {
+    color: #828282;
+}
+
+.section-success img {
+    width: 50%;
+}
+.section-success h2 {
+    font-size: 38px;
+    font-weight: 600;
+}
+.section-success p {
+    margin-top: 16px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.section-success a {
+    text-decoration: none;
+    color: #343531;
+}
+.section-success .btn-success-janji {
+    background-color: #1e5dbc;
+    color: white;
+    width: 200px;
+    margin-top: 26px;
+}
+
+footer {
+    background-color: #38697b;
+    color: white;
+}
+footer h5 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+footer .nav-item {
+    color: #d9d9d9;
+    font-size: 14px;
+}
+footer .nav-item a {
+    color: #d9d9d9;
+    text-decoration: none;
+}
+footer .nav-item a:hover {
+    color: #d9d9d9;
+} /*# sourceMappingURL=main.css.map */
